@@ -1,0 +1,155 @@
+{
+    "packages": [
+        {
+            "name": "glenscott/url-normalizer",
+            "version": "1.4.0",
+            "version_normalized": "1.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/glenscott/url-normalizer.git",
+                "reference": "b8e79d3360a1bd7182398c9956bd74d219ad1b3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/glenscott/url-normalizer/zipball/b8e79d3360a1bd7182398c9956bd74d219ad1b3c",
+                "reference": "b8e79d3360a1bd7182398c9956bd74d219ad1b3c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "time": "2015-06-11T16:06:02+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "URL\\": "src/URL"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Glen Scott",
+                    "email": "glen@glenscott.co.uk"
+                }
+            ],
+            "description": "Syntax based normalization of URL's",
+            "install-path": "../glenscott/url-normalizer"
+        },
+        {
+            "name": "jaybizzle/crawler-detect",
+            "version": "v1.2.120",
+            "version_normalized": "1.2.120.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+                "reference": "2b325bdce46bbb8a2e96dc740ad37c743c9d8617"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/2b325bdce46bbb8a2e96dc740ad37c743c9d8617",
+                "reference": "2b325bdce46bbb8a2e96dc740ad37c743c9d8617",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.5|^6.5|^9.4"
+            },
+            "time": "2024-09-15T14:31:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jaybizzle\\CrawlerDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Beech",
+                    "email": "m@rkbee.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+            "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+            "keywords": [
+                "crawler",
+                "crawler detect",
+                "crawler detector",
+                "crawlerdetect",
+                "php crawler detect"
+            ],
+            "support": {
+                "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.120"
+            },
+            "install-path": "../jaybizzle/crawler-detect"
+        },
+        {
+            "name": "techcrunch/wp-async-task",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/techcrunch/wp-async-task.git",
+                "reference": "9bdbbf9df4ff5179711bb58b9a2451296f6753dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/techcrunch/wp-async-task/zipball/9bdbbf9df4ff5179711bb58b9a2451296f6753dc",
+                "reference": "9bdbbf9df4ff5179711bb58b9a2451296f6753dc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "10up/wp_mock": "dev-master",
+                "phpunit/phpunit": "*@stable"
+            },
+            "time": "2016-03-10T17:37:13+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "wp-async-task.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Khadiwala",
+                    "role": "developer"
+                },
+                {
+                    "name": "Nicolas Vincent",
+                    "role": "developer"
+                },
+                {
+                    "name": "Eric Mann",
+                    "email": "eric.mann@10up.com",
+                    "role": "developer"
+                },
+                {
+                    "name": "John P. Bloch",
+                    "email": "john.bloch@10up.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Run asynchronous tasks for long-running operations in WordPress",
+            "install-path": "../techcrunch/wp-async-task"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
